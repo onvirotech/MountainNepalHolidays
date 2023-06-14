@@ -1,0 +1,136 @@
+@media (max-width:1000px) {
+   
+    .main_logo2{
+       display: block;
+   }
+    .banner_text {
+       padding-top: 3%;
+   }
+    .main_logo{
+       display: none;
+    }
+    .pt_nav{
+       padding-top: 0%;
+   }
+   .fields select{
+       width: 245px;
+       margin-top: 2%;
+
+   }
+   .banner_box{
+   
+       padding: 2%;
+ 
+   }
+   .search_form{
+       width: 245px;
+       margin-top: 2%;
+   }
+   .discover_cont h2 {
+     
+       font-size: 13px;
+   }
+   .discover_cont p {
+       
+       padding-top: 0%;
+   }
+   .position_img img {
+       height: 451px;      
+   }
+ 
+   .discover_cont img{
+       height: 100%;
+       width: 100%;
+       
+    }
+    .disabbled_quick{
+      display: none;
+   }
+   .offcanvas-body{ 
+       padding-left: 12%;
+       background-color: #112A41;
+       color: #fff;
+   }
+   .contact_banner img {      
+       height: 111px;      
+   }
+   .about_banner img {
+       height: 300px;       
+   }
+   .banner_content{
+       position: absolute;       
+       bottom: 10%;
+   }
+   .about_banner_content {
+       left: 2%;
+       bottom: 5%;
+   }
+   .gallery_img img {
+       max-height: 100%;
+   
+   }
+   .swiper_container_a{
+       height: 110px;
+    }
+    .gallery_head_a{
+       margin-bottom: 0%;
+       
+         }
+         .gallery_img_a img {
+         
+          height: 21vh;
+       
+       }
+       .all_gallery_img{
+           display: none !important;
+           
+       }
+  
+       .card_g img{
+           height: 201px;
+        
+       }
+       .foot_logo_b img{
+           width:55px;
+           height: 55px;
+       }
+       .carousel-item img{
+           height: 251px;
+    
+       }
+       .plan_trip{
+           width: 100%;
+          
+       }
+     
+       .read_more_a{
+           width: 100%;
+             }
+             .see_all_d a {
+               font-size: 13px;
+           }
+           .nation_a button{              
+               margin-top:-12% !important;
+              float: right;
+              margin-left: 3%;
+           }
+}
+@media (min-width:768px) and (max-width:1000px) {
+
+   .check_box_e td {
+       font-size: 11px;
+   }
+   .check_d{
+       font-size: 11px;
+   }
+}
+@media (min-width:768px) and (max-width:1400px) {
+   .fields select {
+       width: 225px;
+   }
+   .search_form{
+       width: 225px;
+   }
+  
+}
+

@@ -1,0 +1,101 @@
+.search_form{
+    width: 311px;
+    height: 51px;
+    border-radius: 7px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    background-color: #112A41;
+}
+.read_more{
+    width: 100%;
+    height: 51px;
+    border-radius: 7px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    background-color: #112A41;
+    transition: .7s;
+}
+.read_more:hover{
+    opacity: 0.9;
+}
+.read_more_a{
+    width: 25%;
+    height: 51px;
+    border-radius: 7px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    background-color: #112A41;
+    transition: .7s;
+}
+.read_more_a:hover{
+    opacity: 0.9;
+}
+.plan_trip{
+    width: 25%;
+    height: 51px;
+   border: 2px solid #112A41;
+   border-radius: 7px;
+    background-color: #fff;
+    font-weight: 500;
+color: #112A41;
+transition: .7s;
+}
+.plan_trip:hover{
+      background-color: #112A41;
+      color: #fff;
+   
+}
+.plan_trip_a{
+    width: 100%;
+    height: 51px;
+   border: 2px solid #112A41;
+   border-radius: 7px;
+    background-color: #fff;
+    font-weight: 500;
+color: #112A41;
+transition: .7s;
+}
+.plan_trip_a:hover{
+      background-color: #112A41;
+      color: #fff;
+    
+}
+.submit_button{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    padding: 3% 7% 3% 7%;  
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    background-color: #112A41;  
+}
+.button_scroll{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    font-size: 7rem;
+    width: 70px;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.button_scroll_b{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    font-size: 7rem;
+    width: 70px;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.lan_button button{
+    background-color: #112A41 !important;
+    border: none;
+}
