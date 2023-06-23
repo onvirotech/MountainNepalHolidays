@@ -98,9 +98,9 @@ function OffcanvasExample({ navData }) {
                             key={index}
                             onClick={closeOffCanvas}
                           >
-                            {getCurrentLanguage() == "en"
-                              ? `${item?.title_en}`
-                              : `${item?.title_nep}`}
+                           {getCurrentLanguage() == "de"
+                            ? `${item?.title_nep}`
+                            : `${item?.title_en}`}
                           </NavDropdown.Item>
                         ))}
                       </DropdownSubmenu>
@@ -195,9 +195,9 @@ function OffcanvasExample({ navData }) {
                           key={index}
                           onClick={closeOffCanvas}
                         >
-                          {getCurrentLanguage() == "en"
-                            ? `${item?.title_en}`
-                            : `${item?.title_nep}`}
+                          {getCurrentLanguage() == "de"
+                            ? `${item?.title_nep}`
+                            : `${item?.title_en}`}
                         </NavDropdown.Item>
                       ))}
                     </NavDropdownMenu>
