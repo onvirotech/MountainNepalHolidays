@@ -44,6 +44,8 @@ const meta= indexData?.siteSetting;
                   <meta name="description" content={meta?.meta_description} />
                   <meta name="keywords" content={meta?.meta_keywords} />
                   <meta property='og:image' key='og:image' content={ogUrl+meta?.og_image} />
+                  <meta property="og:title" content={meta?.meta_title} />
+                  <meta property="og:description" content={meta?.meta_description} />
                 </Helmet>             
       <TopBar topData = {indexData}/>
       <NavBar navData={indexData}/>
