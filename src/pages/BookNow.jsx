@@ -11,7 +11,7 @@ import {useTranslation} from "react-i18next";
 import {Cookies} from "react-cookie";
 
 const BookNow = ({bookNow}) => {
-    const bookNowData = bookNow ?. outbounds;
+    const bookNowData = bookNow ?. packages;
     const {t} = useTranslation();
     const cookies = new Cookies();
     const [fullName, setFullName] = React.useState("");
@@ -221,10 +221,10 @@ const BookNow = ({bookNow}) => {
                                                     }
                                         >
                                                     {
-                                                    getCurrentLanguage() == "en" ? `${
-                                                        selectedPackageData ?. title_en
-                                                    }` : `${
+                                                    getCurrentLanguage() == "de" ? `${
                                                         selectedPackageData ?. title_nep
+                                                    }` : `${
+                                                        selectedPackageData ?. title_en
                                                     }`
                                                 } </option>
                                                 {
@@ -234,10 +234,10 @@ const BookNow = ({bookNow}) => {
                                                         }
                                                         key={index}>
                                                         {
-                                                        getCurrentLanguage() == "en" ? `${
-                                                            item ?. title_en
-                                                        }` : `${
+                                                        getCurrentLanguage() == "de" ? `${
                                                             item ?. title_nep
+                                                        }` : `${
+                                                            item ?. title_en
                                                         }`
                                                     } </option>
                                                 ))
