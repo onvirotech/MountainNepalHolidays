@@ -49,7 +49,7 @@ const Outbond = ({ props }) => {
               <div className="row">
                 <div className="col-md-6 activities_title">
                 <h3>{getCurrentLanguage()==="de"? outBondDetail?.title_nep : outBondDetail?.title_en}</h3>
-                      <p dangerouslySetInnerHTML={{ __html:  getCurrentLanguage()==="en"? `${outBondDetail?.description_en}`: `${outBondDetail?.description_nep}` }}></p>
+                      <p dangerouslySetInnerHTML={{ __html:  getCurrentLanguage()==="de"? `${outBondDetail?.description_nep}`: `${outBondDetail?.description_en}` }}></p>
                 </div>
 
                 <div className="col-md-6 activities_img">
