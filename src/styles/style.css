@@ -742,4 +742,6 @@ border-radius: 101px 21px 101px 21px;
     height: 300px;
     object-fit: contain;
   }
-
+pre{
+    white-space: normal !important;
+}
